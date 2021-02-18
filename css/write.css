@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#back{
+    width: 100%;
+    height: 41em;
+    filter: blur(4px);
+    background-image: url("../free_images_1/project-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#write{
+    position:absolute;
+    top:20%;
+    left:20%;
+    transform: translate(-20%, -20%);
+}
+#write h2{
+    font-family: 'Potta One', cursive;
+    font-size: 2em;
+    margin-bottom: .5em;
+    color:black;
+    text-shadow: 2px 2px 0px grey;
+}
+#write h4{
+    font-size: 1.5em;
+    font-family: 'Kufam', cursive;
+    color:lightgray;
+    text-shadow: 2px 2px 0px rgb(7, 6, 6);
+}
+   
+#write  button{
+    background: transparent;
+    margin-top: 1.2em;
+    border: 0px solid;
+    padding: 1em 1.2em;
+    border-radius: 2em;
+    background-color:rgb(7, 6, 6,0.9) ;
+    box-shadow: 0px 0px 10px rgb(59, 59, 52);    
+}
+#write button:focus,
+#write  button:hover{
+    box-shadow: 0px 0px 0px  rgb(134, 134, 132); 
+    background-color: rgb(17, 17, 17) ;
+    outline: none;
+    transition: .5s;
+    
+}
+#write button a {
+    text-decoration: none;
+    font-family: 'Kufam', cursive;
+    color:rgb(141, 153, 98);
+}
+#write button:hover a{
+   
+    color:rgb(250, 245, 245);
+    transition: .5s;
+}
+  
+   
+   
+   
+   
+   

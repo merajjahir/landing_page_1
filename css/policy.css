@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+#policy {
+    background-image: url("../free_images_1/wallpaper/tim-krauss-R17B1Ewairc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:50rem;
+     
+}
+
+
+#policy div h2{
+    position:absolute;
+    font-family: 'Kufam', cursive;
+    font-weight: 500;
+    top: 20%;
+    left: 20%;
+    font-size: 2rem;
+    transform: translate(-20%, -20%);
+    color:rgb(169, 169, 169);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+#policy div p{
+    position:absolute;
+    text-indent: 2em;
+    font-family: 'Gochi Hand', cursive;
+    font-weight: 700;
+    top: 30%;
+    left: 20%;
+    font-size: 1.2rem;
+    color:rgb(126, 126, 126);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+
+}
+
+ 
+    
+    
+    
+  
+   
+   
+    
+   

@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#trending{
+    overflow: hidden;
+    position:relative;
+    width:100%;
+    background-image: url("../free_images_1/wallpaper/tim-krauss-R17B1Ewairc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:50rem;
+     
+}
+#trending .wraper{margin-top: 8em;}
+#trending .wraper h2{
+    position: absolute;
+    top:10%;
+    left:40%;
+    transform: translate(-10%, -30%);
+    font-family: 'Kufam', cursive;
+    font-weight: 700;
+    font-size: 2.2em;
+    text-shadow: 0em 0em 1em rgb(70, 70, 70);
+
+
+}
+#trending .items{
+    width: 100%;
+    height: 100%;
+    position:relative ;
+    display:flex;
+    
+}
+#trending .photo{
+    position: absolute;
+    margin-top:.5em;
+    width:20%;
+
+}
+#trending .photo img{
+    border-radius: 50%;
+    width:8em;
+}
+#trending .info{
+    position:absolute;
+    margin-top: .2rem;
+    width:100%;
+    left:10em;
+}
+#trending .info h3 a {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1em;
+    text-decoration: none;
+    color:rgb(114, 129, 115);
+    margin-top:1em;
+    
+}
+#trending .info h3 a:hover{
+    color:black;
+}
+#trending .info p{
+    color:rgb(13, 14, 13);
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+#trending .info .date {
+    color:rgb(114, 129, 115);margin-bottom: 0.5em;
+}
+#trending .info h4{
+    margin-bottom: 0.5em;
+}
+#trending .info button{
+    background:transparent;
+    padding: 1em 1.2em;
+    border-radius: 2em;
+    box-shadow: 0em 0em 2em black;
+}
+#trending .info button a {
+    text-decoration: none;
+    font-family: 'Potta One', cursive;
+    font-size: 1.2em;
+    color:black;
+}
+#trending .info button:focus,
+#trending .info button:hover{
+    background-color: black;
+    outline: none;
+}
+#trending .info button a:hover{
+    color:white;
+    
+
+}
+#comment {
+    position: relative;
+}
+#comment textarea{
+    position:absolute;
+    top: 220%;
+    left: 15%;
+    transform: translate(-15%,-220%);
+    padding: 2em;
+    border-radius: 1em;
+    background-color: rgb(255,255, 255,0.4);
+
+}
+#comment textarea:hover,
+#comment textarea:focus{
+    outline: none;
+    text-shadow: 2px 2px 0px black;
+}
+#comment #cbtn{
+    position:absolute;
+    top:450%;
+    left:3%;
+    transform: translate(-10%,-450%);
+
+
+}
+#comment #cbtn{
+    background-color: transparent;
+    color:black;
+    padding: 1em 1.2em;
+    border-radius: 1em;
+    border:2px black solid;
+
+}
+#cbtn a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Potta One', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+#comment button:focus,
+#comment button:hover{
+    background-color: black;
+    outline: none;
+    box-shadow: .5em .5em 0em black;
+
+}
+#cbtn a:hover{
+    color:white;
+}

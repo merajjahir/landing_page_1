@@ -1,0 +1,46 @@
+#footer{
+    width: 100%;
+    padding-top: 2em;
+    background-color: #A6B577;
+    display:flex;
+
+    
+}
+#footer #left{
+    width: 25%;
+    margin: 0em 12em 0em 1em;
+
+}
+#footer #left h4{
+    margin-bottom: 1em;
+
+}
+#footer #middle h3{
+    font-family: 'Potta One', cursive;
+    margin-right:15em;
+
+}
+#footer #middle a {
+    text-decoration: none;
+    color:black;
+
+}
+#footer #right{
+ 
+    width: 25%;
+
+}
+#footer #right i{
+    margin-right: 1em;
+
+}
+#footer #right a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: 'Potta One', cursive;
+
+}
+
+
+
+
